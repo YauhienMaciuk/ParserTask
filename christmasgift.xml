@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gift xmlns="http://www.example.org/ChristmasGift" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.example.org/ChristmasGift christmasgift.xsd">
+    <candies id="id-01">
+        <name>Korovka</name>
+        <weight>10.0</weight>
+        <sugar>7.2</sugar>
+        <type>caramel</type>
+    </candies>
+    <candies id="id-02">
+        <name>Bialowieza</name>
+        <weight>15.0</weight>
+        <sugar>11.9</sugar>
+        <type>chocolate</type>
+    </candies>
+    <chocolate id="id-03">
+        <name>Alionka</name>
+        <weight>90</weight>
+        <sugar>40</sugar>
+        <color>black</color>
+    </chocolate>
+    <chocolate id="id-04">
+        <name>Bear</name>
+        <weight>100</weight>
+        <sugar>47.9</sugar>
+        <color>white</color>
+    </chocolate>
+    <wafers id="id-05">
+        <name>Lemon</name>
+        <weight>50</weight>
+        <sugar>22</sugar>
+        <stuffed>true</stuffed>
+    </wafers>
+    <wafers id="id-06">
+        <name>Turtles</name>
+        <weight>70</weight>
+        <sugar>31.2</sugar>
+        <stuffed>false</stuffed>
+    </wafers>
+    <candies id="id-07">
+        <name>Rachki</name>
+        <weight>7</weight>
+        <sugar>6.5</sugar>
+        <type>caramel</type>
+    </candies>
+    <chocolate id="id-08">
+        <name>Milka</name>
+        <weight>90</weight>
+        <sugar>53.8</sugar>
+        <color>black</color>
+    </chocolate>
+    <wafers id="id-09">
+        <name>Orange</name>
+        <weight>75</weight>
+        <sugar>30.2</sugar>
+        <stuffed>true</stuffed>
+    </wafers>
+    <candies id="id-10">
+        <name>nuts</name>
+        <weight>14</weight>
+        <sugar>9.5</sugar>
+        <type>chocolate</type>
+    </candies>
+    <chocolate id="id-11">
+        <name>Nestle</name>
+        <weight>100</weight>
+        <sugar>35</sugar>
+        <color>black</color>
+    </chocolate>
+    <wafers id="id-12">
+        <name>chess</name>
+        <weight>75</weight>
+        <sugar>27.0</sugar>
+        <stuffed>false</stuffed>
+    </wafers>
+    <candies id="id-13">
+        <name>Mars</name>
+        <weight>20</weight>
+        <sugar>13.3</sugar>
+        <type>caramel</type>
+    </candies>
+    <chocolate id="id-14">
+        <name>Roshen</name>
+        <weight>100</weight>
+        <sugar>44.4</sugar>
+        <color>white</color>
+    </chocolate>
+    <wafers id="id-15">
+        <name>Bielarus</name>
+        <weight>70</weight>
+        <sugar>35.1</sugar>
+        <stuffed>true</stuffed>
+    </wafers>
+</gift>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/ChristmasGift"
+        xmlns:tns="http://www.example.org/ChristmasGift"
+        elementFormDefault="qualified">
+    <element name="gift">
+        <complexType>
+            <sequence>
+                <element ref="tns:confection" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="confection" type="tns:confection" abstract="true"/>
+    <element name="candies" type="tns:candies" substitutionGroup="tns:confection"/>
+    <element name="chocolate" type="tns:chocolate" substitutionGroup="tns:confection"/>
+    <element name="wafers" type="tns:wafers" substitutionGroup="tns:confection"/>
+    <complexType name="confection">
+        <sequence>
+            <element name="name">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="[A-Za-z]+"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="weight">
+                <simpleType>
+                    <restriction base="double">
+                        <minInclusive value="0.1"/>
+                        <maxExclusive value="1000"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="sugar">
+                <simpleType>
+                    <restriction base="double">
+                        <minInclusive value="0.1"/>
+                        <maxExclusive value="1000"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+        <attribute name="id" use="required" type="ID"/>
+    </complexType>
+    <complexType name="candies">
+        <complexContent>
+            <extension base="tns:confection">
+                <sequence>
+                    <element name="type">
+                        <simpleType>
+                            <restriction base="string">
+                                <enumeration value="chocolate"/>
+                                <enumeration value="caramel"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <complexType name="chocolate">
+        <complexContent>
+            <extension base="tns:confection">
+                <sequence>
+                    <element name="color">
+                        <simpleType>
+                            <restriction base="string">
+                                <enumeration value="black"/>
+                                <enumeration value="white"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <complexType name="wafers">
+        <complexContent>
+            <extension base="tns:confection">
+                <sequence>
+                    <element name="stuffed" type="boolean"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+</schema>

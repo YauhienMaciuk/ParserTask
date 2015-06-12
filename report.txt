@@ -1,0 +1,16 @@
+Gift: [
+Candies: type = caramel, name = 'Korovka', weight = 10.0, quantitySugar = 7.2, 
+Candies: type = chocolate, name = 'Bialowieza', weight = 15.0, quantitySugar = 11.9, 
+Chocolate: color = black, name = 'Alionka', weight = 90.0, quantitySugar = 40.0, 
+Chocolate: color = white, name = 'Bear', weight = 100.0, quantitySugar = 47.9, 
+Wafers: stuffed = true, name = 'Lemon', weight = 50.0, quantitySugar = 22.0, 
+Wafers: stuffed = false, name = 'Turtles', weight = 70.0, quantitySugar = 31.2, 
+Candies: type = caramel, name = 'Rachki', weight = 7.0, quantitySugar = 6.5, 
+Chocolate: color = black, name = 'Milka', weight = 90.0, quantitySugar = 53.8, 
+Wafers: stuffed = true, name = 'Orange', weight = 75.0, quantitySugar = 30.2, 
+Candies: type = chocolate, name = 'nuts', weight = 14.0, quantitySugar = 9.5, 
+Chocolate: color = black, name = 'Nestle', weight = 100.0, quantitySugar = 35.0, 
+Wafers: stuffed = false, name = 'chess', weight = 75.0, quantitySugar = 27.0, 
+Candies: type = caramel, name = 'Mars', weight = 20.0, quantitySugar = 13.3, 
+Chocolate: color = white, name = 'Roshen', weight = 100.0, quantitySugar = 44.4, 
+Wafers: stuffed = true, name = 'Bielarus', weight = 70.0, quantitySugar = 35.1]
